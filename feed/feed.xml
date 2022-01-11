@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Блог Шипачева Максима</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<subtitle>Пишу сюда с 2005 года.</subtitle>
 	
 	<link href="https://shipachev.com/feed/feed.xml" rel="self"/>
 	<link href="https://shipachev.com/"/>
 	<updated>2021-12-28T00:00:00Z</updated>
 	<id>https://shipachev.com/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>Maxim Shipachev</name>
+		<email>maxim@shipachev.com</email>
 	</author>
 	
 	<entry>
@@ -604,8 +604,14 @@
 		<updated>2021-02-27T00:00:00Z</updated>
 		<id>https://shipachev.com/posts/2021/chto-otlichaet-uspeshnogo-cheloveka/</id>
 		<content type="html">&lt;p&gt;По-настоящему успешного человека отличить очень легко, хоть общество и использует разные способы маскировки, навязывая ложную повестку.&lt;/p&gt;
-&lt;p&gt;Что не является признаками успешности: — пост руководителя любого уровня — артефакты материального мира (телефон, одежда, машина, недвижимость) — наличие/отсутствие семьи или детей — успешный успех в социальных сетях&lt;/p&gt;
-&lt;p&gt;Единственным критерием успешности является то, насколько человек способен вчера, сегодня, на этой неделе распоряжаться собственным временем. С вышеобозначенными признаками эта способность не коррелирует никак.&lt;/p&gt;
+&lt;p&gt;Что не является признаками успешности:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;пост руководителя любого уровня&lt;/li&gt;
+&lt;li&gt;артефакты материального мира (телефон, одежда, машина, недвижимость)&lt;/li&gt;
+&lt;li&gt;наличие/отсутствие семьи или детей&lt;/li&gt;
+&lt;li&gt;успешный успех в социальных сетях&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Единственным критерием успешности является то, насколько человек способен вчера, сегодня, на этой неделе &lt;strong&gt;распоряжаться собственным временем&lt;/strong&gt;. С вышеобозначенными признаками эта способность не коррелирует никак.&lt;/p&gt;
 &lt;p&gt;Не когда-нибудь потом, когда рассчитается по кредитам, поднимет детей, получит должность заведующего отделом. А сейчас, в текущем моменте.&lt;/p&gt;
 &lt;p&gt;Другого не будет.&lt;/p&gt;
 </content>
