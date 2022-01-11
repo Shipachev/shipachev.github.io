@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Параметры запуска Truecrypt</title>
+    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Блог Шипачева Максима">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Блог Шипачева Максима">
+  </head>
+
+  <body class=" layout-post-single ">
+    <header class="site-header">
+      <div class="logo">
+        <a href="/"><img src="/img/logo.png" alt=""></a>
+      </div>
+      <div class="title">
+        <a href="/">Блог Шипачева Максима</a>
+      </div>
+      <ul class="nav">
+        <li class="nav-item"><a href="/posts/2019/tools/">Мои инструменты</a></li>
+        <li class="nav-item"><a href="/about/">Обо мне</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="wrapper">
+  <header class="page-header">
+    <h1>Параметры запуска Truecrypt </h1>
+    <time datetime="2010-12-21">21 декабря 2010 г.</time>
+  </header>
+
+  <div class="content">
+  <p>Программу для создания шифрованного контейнера TrueCrypt использую уже несколько лет. Потеря флешки, данные на которой зашифрованы означает теперь только потерю флешки. Нашедший не сможет воспользоваться ни хранящимися на ней сертификатами Webmoney ни ключами доступа к интернет-банку. Даже насладиться эротическими фотографиями у него не получится.</p>
+<p>Все данные хранятся в одном-единственном файле, который зашифрован так что и миллион китайцев не справится.</p>
+<p>Тут можно добавить, что и флешку мне давно заменил <a href="https://www.dropbox.com/referrals/NTE5OTUxMjE5?src=global0">Dropbox</a>, и файлы автоматом синхронизируются на двух компьютерах и нетбуке. Но нетбуки иногда теряются, да и компьютеры бывает тоже, поэтому вернемся к TrueCrypt.</p>
+<p><img src="2010-12-21_104255.jpg" alt="Главное окно TrueCrypt"></p>
+<p>Чтобы смонтировать зашифрованный том по умолчанию нужно выполнить несколько кликов. Запустить (если не запущен) сам TrueCrypt, выбрать файл, который нужно смонтировать, ввести пароль.</p>
+<p>Но зашифрованных томов бывает несколько и хранятся они бывает в нескольких местах, поэтому лучше создать разные ярлыки, которые будут запускать TrueCrypt уже с нужными нам ключами.</p>
+<p>Итак:</p>
+<p><strong>Автомонтирование нужного нам тома</strong></p>
+<p>TrueCrypt.exe /v C:\Dropbox\explorer /ls /m rm /q</p>
+<p>где</p>
+<p>TrueCrypt.exe /v C:\Dropbox\explorer — путь до нужного нам контейнера</p>
+<p>/ls — монтировать контейнер будем в качестве диска S:\</p>
+<p>/m rm — диск будет выглядеть в системе как съемный (поможет к примеру избежать уведомление Webmoney о проблеме с безопасностью)</p>
+<p>/q — «тихий» режим, TrueCrypt не покажет основной интерфейс, а спросит только пароль</p>
+<p>после окончания работы диск необходимо размонтировать (хотя бы для того чтобы Dropbox синхронизировал его с остальными компьютерами)</p>
+<p><strong>Размонтирование нужного нам диска</strong></p>
+<p>TrueCrypt.exe /d s /q</p>
+<p>/d s — размонтируем диск S</p>
+<p>/q — «тихий» режим</p>
+
+  </div>
+
+  <a href="vscode://file/Users/maximshipachev/Developer/shipachev/posts/2010/parametryi-zapuska-truecrypt/index.md">✍️ редактировать</a>
+  <div class="pagination">
+  <ul><li><a href="/posts/2010/priglashenie-vo-vlast/">&larr; Приглашение во власть</a></li><li><a href="/posts/2010/nu-povezlo-tak-povezlo/">Ну повезло, так повезло &rarr; </a></li>
+  </ul>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="site-info">
+          <p>Личный блог Шипачёва Максима | С 2005 года</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Current page: /posts/2010/parametryi-zapuska-truecrypt/ -->
+  </body>
+</html>

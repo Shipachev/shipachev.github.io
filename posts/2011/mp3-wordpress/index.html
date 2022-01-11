@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как добавить проигрыватель mp3 в пост Wordpress</title>
+    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Блог Шипачева Максима">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Блог Шипачева Максима">
+  </head>
+
+  <body class=" layout-post-single ">
+    <header class="site-header">
+      <div class="logo">
+        <a href="/"><img src="/img/logo.png" alt=""></a>
+      </div>
+      <div class="title">
+        <a href="/">Блог Шипачева Максима</a>
+      </div>
+      <ul class="nav">
+        <li class="nav-item"><a href="/about/">Обо мне</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="wrapper">
+  <header class="page-header">
+    <h1>Как добавить проигрыватель mp3 в пост Wordpress </h1>
+    <time datetime="2011-03-26">26 марта 2011 г.</time>
+  </header>
+
+  <div class="content">
+  <p>Мне нравится дополнять записи в блоге  картинками, видео и mp3-файлами. MP3-файлы могут быть с фрагментом интервью как в <a href="http://shipachev.com/2011/02/03/volochkova-vs-edro/" title="Вторая часть Марлезонского балета">посте с Волочковой</a> или с песней о никчёмной жизни, как в случае с постом <a href="http://shipachev.com/2011/03/25/weeds/" title="Косяки">про сериал «Косяки»</a>. Собственно пост про сериал и стал поводом для написания этого.</p>
+<p><img src="56111705_normal_malchik048191.jpg" alt="Как добавить музыку mp3 в блог Wordpress"></p>
+<p>Чтобы проигрывать файлы mp3 внутри постов в блоге, который работает на Wordpress я и раньше использовал пожалуй самый распространённый в России плеер Uppod. Флэш-плеер от Uppod можно вставить внутрь любого html-кода и читатели же увидят симпатичный проигрыватель, внешний вид которого, кстати можно настроить на офсайте плеера.</p>
+<p>В случае с постом про Волочкову код флэш-плеера внутри поста выглядит так</p>
+<p>[php]</p>
+<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="470" height="70" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="data" value="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" /><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="way=http://shipachev.com/wp-content/uploads/2011/02/volochkova.mp3&amp;swf=http://flv-mp3.com/i/pic/ump3player\_500x70.swf&amp;w=470&amp;h=70&amp;time\_seconds=0&amp;autoplay=0&amp;q=&amp;skin=grey&amp;volume=70&amp;comment=" /><param name="src" value="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" /><embed type="application/x-shockwave-flash" width="470" height="70" src="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" data="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" wmode="transparent" allowfullscreen="true" allowscriptaccess="always" flashvars="way=http://shipachev.com/wp-content/uploads/2011/02/volochkova.mp3&amp;swf=http://flv-mp3.com/i/pic/ump3player\_500x70.swf&amp;w=470&amp;h=70&amp;time\_seconds=0&amp;autoplay=0&amp;q=&amp;skin=grey&amp;volume=70&amp;comment="></embed></object></p>
+<p>[/php]</p>
+<p>В принципе обычная флэшка, в которой любознательный пользователь найдёт и размеры и путь до файла и даже уровень начальной громкости.</p>
+<p>Но каждый раз править этот код занятие довольно неблагодарное, я уж не говорю про генерацию его на сайте плеера.</p>
+<p>Для упрощения вставки музыки в блог Wordpress я решил добавить в код движка отдельную функцию.</p>
+<p>Для этого нужно:</p>
+<p>В интерфейсе администратора выбрать пункт «Внешний вид» — «Редактор» и открыть файл «Функции темы». Лучше сделайте себе резервную копию этого файла, потому что удалив здесь одну скобку или запятую вы легко можете сделать блог неработоспособным.</p>
+<p>В движке Wordpress предусмотрены так называемые шорткоды, то есть написав в тексте поста специальный короткий код мы можем добавить вместо него при выводе поста читателю заранее подготовленный текст или html-код.</p>
+<p>Воспользуемся этой возможностью.</p>
+<p>В конец файла добавляем функцию, которая будет обрабатывать на шорткод.</p>
+<p>[php] function addmusic_shortcode($attr) { if ($attr['url']&lt;&gt;'') { if (!$attr['text']) { $attr['text']==''; } return '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="470" height="70" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="data" value="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" /><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="way=' . $attr\['url'\] . '&swf=http://flv-mp3.com/i/pic/ump3player\_500x70.swf&w=470&h=70&time\_seconds=0&autoplay=0&q=&skin=grey&volume=70&comment=' . $attr\['text'\] . '" /><param name="src" value="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" /><embed type="application/x-shockwave-flash" width="470" height="70" src="http://flv-mp3.com/i/pic/ump3player\_500x70.swf" flashvars="way=' . $attr\['url'\] . '&swf=http://flv-mp3.com/i/pic/ump3player\_500x70.swf&w=470&h=70&time\_seconds=0&autoplay=0&q=&skin=grey&volume=70&comment=' . $attr\['text'\] . '" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" data="http://flv-mp3.com/i/pic/ump3player\_500x70.swf"></embed></object>'; } else { return ''; } } [/php]</p>
+<p>Как видите это уже знакомый нам код плеера, но вместо пути к файлу в коде переменная $attr['url']. Таким образом мы будем использовать этот код для вывода любых mp3-файлов. Также я решил добавить переменную $attr['url'], которая будет отвечать за вывод названия композиции.</p>
+<p>Сразу в начале функции идёт проверка на то, чтобы переменная, в которой хранится путь к проигрываемому файлу не была пустая if ($attr['url']&lt;&gt;''). В случае если это так, пользователь не увидит пустой код проигрывателя.</p>
+<p>После функции необходимо еще добавить следующий код [php] add_shortcode('addmusic', 'addmusic_shortcode'); [/php]</p>
+<p>Эта команда присваивает шорткоду (addmusic) имя и указывает на функцию, которая будет обрабатывать шорткод (addmusic_shortcode)</p>
+<p>Почти всё готово. Загружаете любой mp3-файл с помощью встроенного в Wordpress загрузчика и в том месте куда нужно вставить проигрыватель в посте добавляйте код вызова шоркода. Например вот так.</p>
+<p>[php] [аddmusic url=&quot;<a href="http://shipachev.com/wp-content/uploads/2011/03/spring-delphin.mp3">http://shipachev.com/wp-content/uploads/2011/03/spring-delphin.mp3</a>&quot; text=&quot;Дельфин — Весна&quot;] [/php]</p>
+<p>В посте ваши читатели увидят такой плеер [addmusic url=&quot;<a href="http://shipachev.com/wp-content/uploads/2011/03/spring-delphin.mp3">http://shipachev.com/wp-content/uploads/2011/03/spring-delphin.mp3</a>&quot; text=&quot;Дельфин — Весна&quot;]</p>
+
+  </div>
+  <div class="pagination">
+  <ul><li><a href="/posts/2011/destroy-it/">&larr; Страсть к разрушению</a></li><li><a href="/posts/2011/5-faktov/">5 фактов, которые я только что узнал &rarr; </a></li>
+  </ul>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="site-info">
+          <p>Личный блог Шипачёва Максима | С 2005 года</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Current page: /posts/2011/mp3-wordpress/ -->
+  </body>
+</html>
