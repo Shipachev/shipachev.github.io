@@ -3747,37 +3747,7 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/avtomobil/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/puteshestviya/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shipachev.com/tags/dengi/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/pokupki/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/zhizn/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/programmirovanie/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/instrumenty/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3787,12 +3757,47 @@
   </url>
   
   <url>
+    <loc>https://shipachev.com/tags/instrumenty/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/puteshestviya/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/avtomobil/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shipachev.com/tags/hitrosti/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
+    <loc>https://shipachev.com/tags/pokupki/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/programmirovanie/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/zhizn/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shipachev.com/tags/zdorove/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/knigi/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3804,5 +3809,20 @@
   <url>
     <loc>https://shipachev.com/posts/2022/covid-2/</loc>
     <lastmod>2022-01-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/ya-takoy-kak-vse/</loc>
+    <lastmod>2022-02-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/kratkaya-istoriya-byta/</loc>
+    <lastmod>2022-02-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/obschie-rodstvenniki/</loc>
+    <lastmod>2022-02-22</lastmod>
   </url>
 </urlset>
