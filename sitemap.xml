@@ -3752,12 +3752,12 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/avtomobil/</loc>
+    <loc>https://shipachev.com/tags/dengi/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/dengi/</loc>
+    <loc>https://shipachev.com/tags/avtomobil/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3772,16 +3772,6 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/programmirovanie/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/instrumenty/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shipachev.com/tags/eksperimenty/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
@@ -3792,17 +3782,27 @@
   </url>
   
   <url>
+    <loc>https://shipachev.com/tags/instrumenty/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/programmirovanie/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shipachev.com/tags/zdorove/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/filosofiya/</loc>
+    <loc>https://shipachev.com/tags/knigi/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/knigi/</loc>
+    <loc>https://shipachev.com/tags/filosofiya/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3829,5 +3829,45 @@
   <url>
     <loc>https://shipachev.com/posts/2022/sistemnoye-upravleniye/</loc>
     <lastmod>2022-02-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/nebesniy-stockholm/</loc>
+    <lastmod>2022-03-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/you-need-headhunter/</loc>
+    <lastmod>2022-03-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/zadacha-treh-tel/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/kak-pingviny-spasli-veroniku/</loc>
+    <lastmod>2022-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/nanimayu-lyudey/</loc>
+    <lastmod>2022-04-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/vglyadyvayas-v-solntse/</loc>
+    <lastmod>2022-04-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/soroki-ubiytsy/</loc>
+    <lastmod>2022-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/traits/</loc>
+    <lastmod>2022-04-23</lastmod>
   </url>
 </urlset>
