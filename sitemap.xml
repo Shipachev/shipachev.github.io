@@ -3747,7 +3747,7 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/puteshestviya/</loc>
+    <loc>https://shipachev.com/tags/pokupki/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3757,12 +3757,22 @@
   </url>
   
   <url>
+    <loc>https://shipachev.com/tags/programmirovanie/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shipachev.com/tags/avtomobil/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/pokupki/</loc>
+    <loc>https://shipachev.com/tags/instrumenty/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/puteshestviya/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3778,16 +3788,6 @@
   
   <url>
     <loc>https://shipachev.com/tags/hitrosti/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/instrumenty/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/programmirovanie/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3869,5 +3869,10 @@
   <url>
     <loc>https://shipachev.com/posts/2022/traits/</loc>
     <lastmod>2022-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/grad-obrechennyh/</loc>
+    <lastmod>2022-04-30</lastmod>
   </url>
 </urlset>
