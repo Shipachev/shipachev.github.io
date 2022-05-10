@@ -1606,11 +1606,25 @@ footer.site-footer {
   font-weight: 700;
   font-size: 1.1rem;
 }
+.layout-post-single .content p:first-of-type > img {
+  margin-bottom: 2rem;
+}
 .layout-post-single .content p + h2 {
   margin-top: 2.5rem;
 }
 .layout-post-single .content blockquote p:first-of-type {
   font-weight: normal;
+}
+
+.layout-taglist .taglist-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.layout-taglist .taglist-wrapper .post-tag {
+  margin-right: 0;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
