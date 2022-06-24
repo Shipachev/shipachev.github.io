@@ -1616,6 +1616,26 @@ footer.site-footer {
   font-weight: normal;
 }
 
+.layout-about .badge-list {
+  margin-bottom: 3rem;
+  display: none;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.layout-about .badge-list .item {
+  background-color: #f0f0f4;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.layout-about .badge-list .item span {
+  font-size: 1.2rem;
+  line-height: 1;
+  margin-right: 0.2rem;
+}
+
 .layout-taglist .taglist-wrapper {
   display: flex;
   flex-wrap: wrap;
