@@ -5,12 +5,67 @@
 	
 	<link href="https://shipachev.com/feed/feed.xml" rel="self"/>
 	<link href="https://shipachev.com/"/>
-	<updated>2022-05-07T00:00:00Z</updated>
+	<updated>2022-12-21T00:00:00Z</updated>
 	<id>https://shipachev.com/</id>
 	<author>
 		<name>Maxim Shipachev</name>
 		<email>maxim@shipachev.com</email>
 	</author>
+	
+	<entry>
+		<title>Создал календарь с помощью нейросети</title>
+		<link href="https://shipachev.com/posts/2022/neuro-calendar/"/>
+		<updated>2022-12-21T00:00:00Z</updated>
+		<id>https://shipachev.com/posts/2022/neuro-calendar/</id>
+		<content type="html">&lt;p&gt;Много лет работаю в компании «&lt;a href=&quot;https://rezinotechnika.ru/&quot;&gt;Резинотехника&lt;/a&gt;». Компания является лидером в поставках резинотехнических изделий в Сибири. В этом году открыли филиалы в Казахстане и в Москве. В компании я курирую несколько секторов, в том числе маркетинг.&lt;/p&gt;
+&lt;p&gt;Это означает, каждый год мы с друзьями… делаем дизайн квартального календаря.&lt;/p&gt;
+&lt;p&gt;Хороший квартальный календарь сделать непросто. Он должен быть, с одной стороны, чётко ассоциироваться с компанией, с другой стороны, получатель должен хотеть повесить его на стену. Нужна хорошая обложка.&lt;/p&gt;
+&lt;p&gt;С образами для обложки квартального календаря для компании на рынке b2b есть несколько путей:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Можно взять или сделать фотографию продукции в процессе использования. Но наша номенклатура составляет тысячи наименований, а сфера её применения насчитывает десятки отраслей промышленности. Тяжело совместить на одной фотографии рукав высокого давления, буровой рукав, техпластины, конвейерную ленты и поливочный шланг.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ещё один вариант — фотография сотрудника или сотрудницы (беспроигрышный). В предыдущие два годы мы использовали именно эти образы.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Третий способ решить проблему — использовать абстрактное изображение&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В этом году я решил использовать третий способ. Причём, соответствуя духу времени, задейстовать для генерации абстрактного изображения нейросеть. Выбрал одну из самых распиаренных, Midjorney.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://discord.com/invite/midjourney&quot;&gt;Сеть Midjourney&lt;/a&gt; обрабатывает изображения с помощью системы обмена сообщениями Discord. Бесплатно можно обработать около 20 фотографий.&lt;/p&gt;
+&lt;p&gt;Чтобы обработать фотографию, нужно разместить её где-нибудь в интернете и отправить в Discord ссылку на фотографию и какой-то текст, который будет использовать нейросеть.&lt;/p&gt;
+&lt;p&gt;На каждый запрос генерируется 4 изображения. Из четырёх вариантов можно выбрать один и улучшить его дополнительно.&lt;/p&gt;
+&lt;p&gt;Я уже пробовал экспериментировать со своими фотографиями, получалось интересно.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Моя фотография с пробежки&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/IMG_0481.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;portrait of rich wise middle-aged man who likes to travel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/grid_0-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;С обложкой для календаря выходит не так гладко.&lt;/p&gt;
+&lt;p&gt;Для генерации решаю использовать фотографию РВД нашего собственного бренда Sibgydral&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/IMG_3555.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Запрос: &lt;strong&gt;rubber industry hoses black&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/grid_0-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;интересно, но на обложку точно не тянет&lt;/p&gt;
+&lt;p&gt;Запрос: &lt;strong&gt;black rubber pattern russia future&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/grid_0-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Действительно похоже на Россию в будущем, cоздаём запрос поабстрактней&lt;/p&gt;
+&lt;p&gt;Запрос: &lt;strong&gt;abstract cartoon rubber landscape&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/grid_abstract.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Попробуем добавить человека. Весёлого.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;funny boy sells black rubber things for industry&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/funny_boy.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Действительно, весёлый. На стене будет смотреться странно. Пробую ещё накинуть вариантов&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;funny seller offers black rubber hose in siberia&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/siberian.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Примерно так мы в Сибири и выглядим.&lt;/p&gt;
+&lt;p&gt;Продолжаю экспериментировать с запросами, пока не подбираю вариант, который мне нравится.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;heavy truck delivers black quality rubber for industry&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/track.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Выбираю один из четырех вариантов, прошу нейросеть сгеренировать более качественное изображение. Добавляю логотип, отправляю макет в типографию.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shipachev.com/posts/2022/neuro-calendar/IMG_0687.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>«Трудно быть человеком», 11/52</title>

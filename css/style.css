@@ -383,7 +383,7 @@ h6 {
 }
 
 blockquote {
-  background: #F0F0F4;
+  background: #f0f0f4;
   padding: 1rem;
   font-style: italic;
 }
@@ -1604,10 +1604,14 @@ footer.site-footer {
 }
 .layout-post-single .content p:first-of-type {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .layout-post-single .content p:first-of-type > img {
   margin-bottom: 2rem;
+}
+.layout-post-single .content li > p:first-of-type {
+  font-weight: normal;
+  font-size: 1rem;
 }
 .layout-post-single .content p + h2 {
   margin-top: 2.5rem;
