@@ -3767,12 +3767,12 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/zhizn/</loc>
+    <loc>https://shipachev.com/tags/programmirovanie/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/programmirovanie/</loc>
+    <loc>https://shipachev.com/tags/zhizn/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3884,5 +3884,10 @@
   <url>
     <loc>https://shipachev.com/posts/2022/neuro-calendar/</loc>
     <lastmod>2022-12-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2022/summary-2022/</loc>
+    <lastmod>2022-12-31</lastmod>
   </url>
 </urlset>
