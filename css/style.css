@@ -301,24 +301,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-@media screen and (max-width: 992px) {
-  html,
-body {
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 720px) {
-  html,
-body {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 576px) {
-  html,
-body {
-    font-size: 13px;
-  }
-}
 
 body {
   font-family: "Inter", sans-serif;
@@ -1548,6 +1530,9 @@ footer.site-footer {
   font-weight: 400;
   font-size: 0.9rem;
 }
+footer.site-footer p {
+  font-size: 0.9rem;
+}
 
 .layout-main .postlist {
   margin: 0;
@@ -1622,6 +1607,11 @@ footer.site-footer {
   font-weight: 700;
   font-size: 1.3rem;
 }
+@media screen and (max-width: 720px) {
+  .layout-post-single .content p:first-of-type {
+    font-size: 1.1rem;
+  }
+}
 .layout-post-single .content p:first-of-type > img {
   margin-bottom: 2rem;
 }
@@ -1660,6 +1650,11 @@ footer.site-footer {
 .layout-about p:first-of-type {
   font-weight: 700;
   font-size: 1.3rem;
+}
+@media screen and (max-width: 720px) {
+  .layout-about p:first-of-type {
+    font-size: 1.2rem;
+  }
 }
 .layout-about p:first-of-type > img {
   margin-bottom: 2rem;
