@@ -1636,6 +1636,34 @@ footer.site-footer {
   font-weight: normal;
 }
 
+.layout-page header.page-header h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+@media screen and (max-width: 992px) {
+  .layout-page header.page-header h1 {
+    font-size: 2rem;
+  }
+}
+
+.layout-about header.page-header h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+@media screen and (max-width: 992px) {
+  .layout-about header.page-header h1 {
+    font-size: 2rem;
+  }
+}
+.layout-about p:first-of-type {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.layout-about p:first-of-type > img {
+  margin-bottom: 2rem;
+}
 .layout-about .badge-list {
   margin-bottom: 3rem;
   display: none;
