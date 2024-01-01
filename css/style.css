@@ -1453,6 +1453,9 @@ header.site-header {
     padding-right: 10px;
   }
 }
+header.site-header .logo img {
+  border-radius: 50%;
+}
 header.site-header .title {
   white-space: nowrap;
   font-weight: 700;
@@ -1485,12 +1488,21 @@ header.site-header .nav {
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
 }
-header.site-header .nav .nav-item:not(:last-child) {
-  margin-right: 1.5rem;
+@media screen and (max-width: 720px) {
+  header.site-header .nav li img {
+    display: none;
+  }
 }
 header.site-header .nav a {
   color: #5C89D3;
+}
+@media screen and (max-width: 720px) {
+  header.site-header .nav {
+    gap: 1rem;
+  }
 }
 header.site-header a {
   color: #333333;
@@ -1558,7 +1570,9 @@ footer.site-footer p {
   display: flex;
   margin-bottom: 0.5rem;
   gap: 0.5rem;
-  flex-wrap: wrap;
+}
+.layout-main .postlist .postlist-item a {
+  white-space: normal;
 }
 .layout-main .postlist .postlist-item .emoji {
   display: inline-block;
