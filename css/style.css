@@ -367,7 +367,14 @@ h6 {
 blockquote {
   background: #f0f0f4;
   padding: 1rem;
+  font-size: 1rem;
   font-style: italic;
+}
+blockquote p:first-of-type {
+  font-size: 1rem;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 a {
@@ -1622,7 +1629,12 @@ footer.site-footer p {
 .layout-post-single .content p + h2 {
   margin-top: 2.5rem;
 }
+.layout-post-single .content blockquote {
+  border-left: 5px solid #bcc5c6;
+  font-style: normal;
+}
 .layout-post-single .content blockquote p:first-of-type {
+  font-size: 1rem;
   font-weight: normal;
 }
 
