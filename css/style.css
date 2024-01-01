@@ -1221,6 +1221,7 @@ textarea.input-sm + label {
   display: flex;
   flex-direction: row;
   margin: 0;
+  align-items: center;
 }
 @media screen and (max-width: 992px) {
   .navbar nav ul {
@@ -1279,7 +1280,7 @@ textarea.input-sm + label {
   line-height: 1;
 }
 .mobilebar .title a {
-  color: #2262AD;
+  color: #2262ad;
 }
 .mobilebar .hamburger {
   margin-left: auto;
@@ -1483,6 +1484,7 @@ header.site-header .nav {
   margin: 0;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 header.site-header .nav .nav-item:not(:last-child) {
   margin-right: 1.5rem;
