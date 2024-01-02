@@ -1416,7 +1416,12 @@ textarea.input-sm + label {
   flex-wrap: wrap;
 }
 .pagination ul li {
-  white-space: nowrap;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: #eaeae8;
+}
+.pagination ul li:hover {
+  background-color: #dcd6ed;
 }
 .pagination ul li.active {
   border-radius: 0.25rem;
@@ -1426,13 +1431,7 @@ textarea.input-sm + label {
   margin-top: -1px;
 }
 .pagination ul li a {
-  border-radius: 0.25rem;
   color: #333333;
-  padding: 0.5rem 1rem;
-  background-color: #EAEAE8;
-}
-.pagination ul li a:hover {
-  background-color: #dcd6ed;
 }
 
 header.site-header {
