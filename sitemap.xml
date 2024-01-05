@@ -3747,6 +3747,11 @@
   </url>
   
   <url>
+    <loc>https://shipachev.com/tags/programmirovanie/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shipachev.com/tags/avtomobil/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
@@ -3768,11 +3773,6 @@
   
   <url>
     <loc>https://shipachev.com/tags/zhizn/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/programmirovanie/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3904,5 +3904,10 @@
   <url>
     <loc>https://shipachev.com/posts/2023/summary-2023/</loc>
     <lastmod>2023-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/robert-bot/</loc>
+    <lastmod>2024-01-05</lastmod>
   </url>
 </urlset>
