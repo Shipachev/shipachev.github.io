@@ -3752,12 +3752,12 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/dengi/</loc>
+    <loc>https://shipachev.com/tags/puteshestviya/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/pokupki/</loc>
+    <loc>https://shipachev.com/tags/dengi/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3767,12 +3767,7 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/instrumenty/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shipachev.com/tags/puteshestviya/</loc>
+    <loc>https://shipachev.com/tags/pokupki/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3792,12 +3787,17 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/zdorove/</loc>
+    <loc>https://shipachev.com/tags/instrumenty/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
     <loc>https://shipachev.com/tags/knigi/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/zdorove/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3919,6 +3919,11 @@
   <url>
     <loc>https://shipachev.com/posts/2023/stop-loss/</loc>
     <lastmod>2023-12-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2023/i-love-swimming/</loc>
+    <lastmod>2023-12-24</lastmod>
   </url>
   
   <url>
