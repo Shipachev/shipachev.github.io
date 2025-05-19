@@ -3752,17 +3752,17 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/puteshestviya/</loc>
-    <lastmod>2021-12-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shipachev.com/tags/avtomobil/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
     <loc>https://shipachev.com/tags/dengi/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/tags/puteshestviya/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3782,12 +3782,12 @@
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/hitrosti/</loc>
+    <loc>https://shipachev.com/tags/eksperimenty/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
   <url>
-    <loc>https://shipachev.com/tags/eksperimenty/</loc>
+    <loc>https://shipachev.com/tags/hitrosti/</loc>
     <lastmod>2021-12-31</lastmod>
   </url>
   
@@ -3947,6 +3947,11 @@
   </url>
   
   <url>
+    <loc>https://shipachev.com/posts/2024/microbiom/</loc>
+    <lastmod>2024-01-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shipachev.com/posts/2024/found-phone/</loc>
     <lastmod>2024-01-17</lastmod>
   </url>
@@ -3954,6 +3959,41 @@
   <url>
     <loc>https://shipachev.com/posts/2024/lost-and-found/</loc>
     <lastmod>2024-01-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/chronobiology/</loc>
+    <lastmod>2024-01-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/black-mark/</loc>
+    <lastmod>2024-01-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/winter-cycling/</loc>
+    <lastmod>2024-01-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/snowboard/</loc>
+    <lastmod>2024-01-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/crepature/</loc>
+    <lastmod>2024-01-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/stardust/</loc>
+    <lastmod>2024-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shipachev.com/posts/2024/sporim/</loc>
+    <lastmod>2024-01-30</lastmod>
   </url>
   
   <url>
